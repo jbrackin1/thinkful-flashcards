@@ -26,7 +26,7 @@ export default function createDeck() {
             </ol>
           </nav>
           <h2>Create Deck</h2>
-          <DeckForm handleSubmit={handleSubmit}/>
+          <DeckForm handleSubmit={handleSubmit} required = {true}/>
         </div>
       );
 }
