@@ -57,7 +57,7 @@ function AddCard(){
                   type="text"
                   value={cardFront}
                   placeholder="placeholder text"
-                  required
+                  required = {true}
                   />
                </div> 
                <Link to={`/decks/${deck.id}`} className="btn btn-secondary mb-2">
