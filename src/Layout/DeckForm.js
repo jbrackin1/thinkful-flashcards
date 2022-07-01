@@ -43,7 +43,7 @@ export default function DeckForm({ handleSubmit, deck, setDeck }) { // call hand
                             placeholder="Deck Name"
                             value={newDeck.name}
                             onChange={handleChange} // handle input by setting equal to handleChange
-                            required
+                            required={true}
                         />
                     </div>
                     <div>
@@ -55,7 +55,7 @@ export default function DeckForm({ handleSubmit, deck, setDeck }) { // call hand
                             placeholder="Brief description of the deck"
                             value={newDeck.description}
                             onChange={handleChange} // handle input by setting equal to handleChange
-                            required
+                            required={true}
                         />
                     </div>
                     <div className="create-deck-btns">
@@ -81,7 +81,7 @@ export default function DeckForm({ handleSubmit, deck, setDeck }) { // call hand
                             placeholder="Deck Name"
                             value={deck.name}
                             onChange={handleChange}
-                            required
+                            required={true}
                         />
                     </div>
                     <div>
@@ -93,7 +93,7 @@ export default function DeckForm({ handleSubmit, deck, setDeck }) { // call hand
                             placeholder="Brief description of the deck"
                             value={deck.description}
                             onChange={handleChange}
-                            required
+                            required={true}
                         />
                     </div>
                     <div>
