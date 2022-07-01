@@ -63,7 +63,7 @@ const Deck = () => {
               </Link>
               <button
                 className="float-right m-1 btn btn-danger"
-                onClick={() => handleDeckDelete(deck.id)} // deletes deck when clicked
+                onClick={() => handleDeckDelete(deck.id)} // deletes deck 
               >
                 <span className="oi oi-trash"></span>
               </button>
@@ -81,7 +81,7 @@ const Deck = () => {
                     <div>
                       <button
                         className="float-right m-1 btn btn-danger"
-                        onClick={() => handleCardDelete(card.id)} // deletes card when clicked
+                        onClick={() => handleCardDelete(card.id)} // deletes card on clicked
                       >
                         <span className="oi oi-trash"></span>
                       </button>
